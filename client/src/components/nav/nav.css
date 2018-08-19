@@ -1,0 +1,24 @@
+.header-main {
+    display: flex;
+    height: 70px;    
+    border-bottom: .5px solid rgb(209, 209, 209);  
+}
+
+
+.header-menu {
+    display: flex;
+    position: relative;        
+    margin: auto auto auto 25px;
+    font-size: 1rem;
+}
+
+#menuNames {
+    flex: 0;
+    padding-right: 20px;    
+}
+
+#nib {
+    display: block;
+    width: 200px;
+    margin: 2rem auto;
+}

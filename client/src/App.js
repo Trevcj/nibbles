@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import logo from './frog.png';
 import './App.css';
-import Users from './components/users/users';
+import Nav from './components/nav/nav';
+import Homepage from './components/homepage/Homepage';
 
 class App extends Component {
   render() {
@@ -11,7 +12,8 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Nibbles is under contruction.</h1>
         </header>
-        <Users />
+        <Nav />
+        <Homepage />
       </div>
     );
   }
