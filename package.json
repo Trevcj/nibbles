@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "server": "node ./bin/www",
-    "client": "set PORT=8080 && npm start --prefix client",
-    "start": "concurrently \"npm run server\" \" set PORT=8080 && npm run client\""
+    "client": "npm start --prefix client",
+    "start": "concurrently \"npm run server\" \"npm run client\""
   },
   "dependencies": {
     "cookie-parser": "~1.4.3",
