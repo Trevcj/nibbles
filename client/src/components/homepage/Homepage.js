@@ -5,7 +5,7 @@ import frog from '../../Assets/frog.png';
 import dog from '../../Assets/dog.png';
 import hedgehog from '../../Assets/porcupine.png';
 import cat from '../../Assets/Untitled-2.png';
-import press from '../../Assets/press.png';
+
 
 class Homepage extends Component {
   render() {
@@ -29,10 +29,10 @@ class Homepage extends Component {
             <img id="dog" src={dog} className="App-dog" alt="dog" />
           </div>
           <div className="press">
-            <img id="press" src={press} className="App-press" alt="press" />
+            
           </div>
         </div>   
-        <Rating />
+        
       </div>
     );
   }
