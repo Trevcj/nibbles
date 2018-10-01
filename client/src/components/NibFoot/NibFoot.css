@@ -1,0 +1,23 @@
+.NibFoot {
+    position: sticky;
+    bottom: 0;
+    margin-top: 3rem;
+}
+
+#legal {
+    color: #38dc87;
+    font-family: Lora;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+span {
+    color: #474747;
+}
+
+#copy {
+    color: #474747;
+    font-family: Istok web;
+    font-size: 1.3rem;
+    font-style: italic;
+}

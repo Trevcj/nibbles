@@ -1,0 +1,13 @@
+.NibNav {   
+    font-family: Lora !important;
+}
+
+#log {
+    font-family: Istok web;
+    color: #7fa7d9;
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-align: left;
+    padding-right: 0;
+    padding-left: 0;
+}

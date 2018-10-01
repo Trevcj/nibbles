@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
-import logo from './frog.png';
 import './App.css';
-import Nav from './components/nav/nav';
+import NibNav from './components/NibNav/NibNav';
 import Homepage from './components/homepage/Homepage';
 
 
@@ -10,14 +9,10 @@ class App extends Component {
   render() {
     const App = () => (
       <div>
-        <Nav />
+        <NibNav />
         <Switch>          
           <Route path='/' exact component={Homepage}/>
-        </Switch>
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Nibbles is under contruction.</h1>
-        </header>    
+        </Switch>            
       </div>
     )
     return (
