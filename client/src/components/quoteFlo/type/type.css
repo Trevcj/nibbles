@@ -1,0 +1,18 @@
+#greenNext {
+  margin: 0.5rem auto;
+  color: #fff;
+  padding: 0.5rem 2rem;
+  font-size: 1.5rem;
+  background-color: #38dc87;
+  border-color: #38dc87;
+}
+
+#greenNext:hover {
+    background-color: #35c97c;
+    border-color: #35c97c;
+  }
+
+#typeSel {
+    max-width: 60rem;
+    margin: auto;
+  }

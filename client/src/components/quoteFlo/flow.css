@@ -1,0 +1,72 @@
+body {
+  font-family: Istok web;
+  color: #474747;
+}
+
+#inputTitle {
+  font-family: Lora;
+}
+
+#infoHead {  
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+#floHead {
+  font-weight: bold;
+  margin: 2rem auto;
+}
+
+#info {
+  margin-bottom: 0;
+  line-height: 17px;
+  font-style: italic;
+}
+
+.greyScale {
+  filter: grayscale(100%);
+}
+
+#petSm {
+  width: 7rem;
+}
+
+#petLg {
+  width: 15rem;
+}
+
+#petInfo {
+  height: 96px;
+  max-width: 20rem;
+  margin: auto;  
+}
+
+#headRow {
+  max-width: 30rem;
+  margin: auto;
+}
+
+#leftAlign {
+  text-align: left;
+}
+
+#blueNext {
+  margin: 0.5rem auto;
+  color: #fff;
+  padding: 0.5rem 2rem;
+  font-size: 1.5rem;
+  background-color: #7fa7d9;
+  border-color: #7fa7d9;
+}
+
+#blueNext:hover {
+  background-color: #6e9cd3;
+  border-color: #6e9cd3;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 770px) {
+  #petLg {
+    width: 8rem;
+  }
+  
+}

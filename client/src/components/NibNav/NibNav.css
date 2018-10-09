@@ -1,13 +1,52 @@
-.NibNav {   
-    font-family: Lora !important;
+.NibNav {
+  font-family: Lora !important;  
+  margin-bottom: 2rem;
 }
 
 #log {
-    font-family: Istok web;
-    color: #7fa7d9;
-    font-weight: 500;
-    font-size: 1.2rem;
-    text-align: left;
-    padding-right: 0;
-    padding-left: 0;
+  color: #474747;
+  font-weight: 500;
+  text-align: left;
+  padding-right: 0;
+  padding-left: 0;
 }
+
+#log:hover {
+  cursor: pointer;
+}
+
+#navLogo {
+  float: left;
+}
+
+.navLogo {
+  width: 7rem;
+  position: absolute;
+  margin-left: 3rem;
+  top: 7px;
+}
+.hidden {
+  display: none;
+}
+
+#burgerBtn {
+  border: none;
+  outline: none !important;
+  padding: 4px 0;
+}
+
+#loginBtn {
+  color: #fff;
+  background-color: #38dc87;
+  border-color: #38dc87;
+}
+
+#loginBtn:hover {
+  background-color: #35c97c;
+  border-color: #35c97c;
+}
+
+.botBorder {
+  border-bottom: solid 2px #d1d1d1;
+}
+

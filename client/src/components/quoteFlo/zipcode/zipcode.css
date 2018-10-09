@@ -1,0 +1,24 @@
+#redNext {
+    margin: 0.5rem auto;
+    color: #fff;
+    padding: 0.5rem 2rem;
+    font-size: 1.5rem;
+    background-color: #fe7877;
+    border-color: #fe7877;
+  }
+  
+  #redNext:hover {
+    background-color: #fa6666;
+    border-color: #fa6666;
+  }
+
+  #zipcode {
+    height: 3.7rem;
+    border-radius: 10px;    
+  }
+  
+  #zipcode:focus {
+    border-color: #fe7877 !important;
+    box-shadow: 0 0 0 0.1rem #fd8989;
+  }
+  

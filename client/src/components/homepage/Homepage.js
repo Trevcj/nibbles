@@ -26,26 +26,26 @@ class Homepage extends Component {
                   Rain or Shine we will keep your pets safe, happy and healthy!
                 </h1>
                 <p id="mottoBld">
-                  Get a pet insurance quote today, as low as $5!
+                  Get your pet insurance quote, rates starting at $8!
                 </p>
-                <Button id="greenBtn" color="success" size="lg">
-                  Get Started
-                </Button>
+                <a href="/flow">
+                  <Button id="greenBtn" color="success" size="lg">
+                    Get Started
+                  </Button>
+                </a>
               </Col>
             </Row>
             <Row id="animals">
               <Col className="text-center">
                 <img id="cat" src={cat} alt="cat" />
               </Col>
-              <Col className="text-center">                     
+              <Col className="text-center">
                 <img id="dog" src={dog} alt="dog" />
               </Col>
             </Row>
           </Col>
         </Container>
-        <Container id="blueBar" fluid>
-
-        </Container>
+        <Container id="blueBar" fluid />
         <Container>
           <Row>
             <Col className="text-center">
@@ -70,7 +70,7 @@ class Homepage extends Component {
                 </Col>
               </Row>
             </Col>
-            <Col md="4"  id="whyBloc">
+            <Col md="4" id="whyBloc">
               <Row>
                 <Col>
                   <img id="whyImg" src={Heart} alt="Heart" />
@@ -86,30 +86,32 @@ class Homepage extends Component {
                 </Col>
               </Row>
             </Col>
-            <Col  md="4" id="whyBloc">
+            <Col md="4" id="whyBloc">
               <Row>
                 <Col>
                   <img id="whyImg" src={Taco} alt="Taco" />
-                </Col>                
+                </Col>
               </Row>
               <Row>
                 <Col>
                   <h2 id="whyHead">It is affordable</h2>
                   <p id="whyCon">
-                    Our pet insurance plan start at only $8 per month. Your pet is
-                    worth more than a taco dinner.
+                    Our pet insurance plan start at only $8 per month. Your pet
+                    is worth more than a taco dinner.
                   </p>
                 </Col>
               </Row>
             </Col>
             <Col className="text-center">
-              <Button id="greenBtn" color="success" size="lg">
-                Get Started
-              </Button>
-            </Col>           
+              <a href="/flow">
+                <Button id="greenBtn" color="success" size="lg">
+                  Get Started
+                </Button>
+              </a>
+            </Col>
           </Row>
         </Container>
-        <NibFoot/>
+        <NibFoot />
       </div>
     );
   }

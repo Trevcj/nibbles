@@ -1,128 +1,121 @@
-
 .hHeadText {
-    width: 50%;
-    margin: auto;
+  width: 50%;
+  margin: auto;
 }
 
 #nib {
-    display: block;
-    margin: 2rem auto;
-    width: 13rem;
+  display: block;
+  margin: auto;
+  margin-bottom: 2rem;
+  width: 13rem;
 }
 
 #animals {
-    margin-top: -10rem;
+  position: relative;
+  margin-top: -10rem;
+  z-index: -1;
 }
 
 #greenBtn {
-    margin: 2rem auto;
-    color: #fff;
-    background-color: #38dc87;
-    border-color: #38dc87;
+  margin: 2rem auto;
+  color: #fff;
+  background-color: #38dc87;
+  border-color: #38dc87;
 }
 
 #greenBtn:hover {
-    background-color: #35c97c;
-    border-color: #35c97c;
+  background-color: #35c97c;
+  border-color: #35c97c;
 }
 
 #bgMotto {
-    font-family: Istok web;
-    font-size: 3rem;
-    color: #474747;
-    font-weight: 700;
-    line-height: 4rem;
-    max-width: 45%;
-    text-align: center;
-    margin: auto;    
+  font-family: Istok web;
+  font-size: 3rem;
+  color: #474747;
+  font-weight: 700;
+  line-height: 4rem;
+  max-width: 45%;
+  text-align: center;
+  margin: auto;
 }
 
 #mottoBld {
-    font-weight: 400;
-    font-size: 1.5rem;
-    font-family: Lora;
-    color: #474747;
-    text-align: center;    
-    margin: 1.5rem auto;   
+  font-weight: 400;
+  font-size: 1.2rem;
+  font-family: Lora;
+  color: #474747;
+  text-align: center;
+  margin: 1.5rem auto;
 }
 
 #blueBar {
-    height: 70px;
-    background-color:#b7cdea;
-    margin: 3rem auto;
+  height: 70px;
+  background-color: #b7cdea;
+  margin: 3rem auto;
 }
 
 #whyBuy {
-    font-family: Istok web;
-    color: #474747;
-    font-weight: 800;
-    margin-bottom: 3rem;
+  font-family: Istok web;
+  color: #474747;
+  font-weight: 800;
+  margin-bottom: 3rem;
 }
 
 #frog {
-    height: 9rem;      
+  height: 9rem;
 }
 #dog {
-    height: 23rem;    
+  height: 23rem;
 }
 #hedgehog {
-    height: 9rem;    
+  height: 9rem;
 }
 #cat {
-    height: 23rem;
+  height: 23rem;
 }
 
 #whyBloc {
-    font-family: Istok web;
-    color: #474747;
-    text-align: center;
-    margin-bottom: 2rem;
+  font-family: Istok web;
+  color: #474747;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 #whyImg {
-   max-width: 165px;
-   height: 155px;
-   display: block;
-   margin: 2rem auto;
+  max-width: 165px;
+  height: 155px;
+  display: block;
+  margin: 2rem auto;
 }
 
-#whyHead {    
-    font-weight: 700;
+#whyHead {
+  font-weight: 700;
 }
 
-#whyCon {    
-    max-width: 90%;
-    margin: auto;    
+#whyCon {
+  max-width: 90%;
+  margin: auto;
 }
 
-
-@media only screen
-and (min-width: 300px) 
-and (max-width: 650px) {
-    #bgMotto{
-        font-size: 1.8rem;
-        line-height: 2.4rem;
-        max-width: 100%;
-    } 
-    #mottoBld {        
-        font-size: 1.2rem;          
-    }    
+@media only screen and (min-width: 300px) and (max-width: 650px) {
+  #bgMotto {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    max-width: 100%;
+  }
+  #mottoBld {
+    font-size: 1.2rem;
+  }
 }
 
-@media only screen
-and (min-width: 300px) 
-and (max-width: 1130px) {
-    #animals {
-        display: none;
-    }      
+@media only screen and (min-width: 300px) and (max-width: 1130px) {
+  #animals {
+    display: none;
+  }
 }
 
-@media only screen
-and (min-width: 650px) 
-and (max-width: 1330px) {
-    #bgMotto{        
-        max-width: 100%;
-    }       
+@media only screen and (min-width: 650px) and (max-width: 1330px) {
+  #bgMotto {
+    max-width: 100%;
+  }
 }
-
-

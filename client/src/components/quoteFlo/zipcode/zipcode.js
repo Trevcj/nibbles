@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./petname.css";
+import "./zipcode.css";
 import {
   Container,
   Row,
@@ -12,13 +12,13 @@ import {
 } from "reactstrap";
 import Mixed from "../../../Assets/Mixed.svg";
 
-class PetName extends Component {
+class Zipcode extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      petName: "",
+      zipcode: "",
       btnFade: false,
-      name: false
+      zip: false
     };
 
     this.submit = this.submit.bind(this);
@@ -27,13 +27,13 @@ class PetName extends Component {
 
   submit(e) {
     e.preventDefault();
-    window.location.href = "/flow/Breed";
+    window.location.href = "/flow/Email";
   }
   input(e) {
     e.preventDefault();
     this.setState({
-      petName: e.target.value,
-      name: true,
+      zipcode: e.target.value,
+      zip: true,
       btnFade: true
     });
   }
@@ -41,29 +41,41 @@ class PetName extends Component {
   render() {
     return (
       <Container>
-        <Row id="petInfo" className="text-center">
-          <Col>
+        <Row id="petInfo">
+          <Col xs="6" className="text-center">
             <img id="petSm" src={Mixed} alt="Mixed Breed Cat" />
+          </Col>
+          <Col xs="6" id="leftAlign" className="d-flex flex-column justify-content-left align-self-center">
+            <Row>
+              <Col>
+                <h6 id="infoHead">!Petname</h6>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+                <p id="info">Breed</p>
+              </Col>
+            </Row>
           </Col>
         </Row>
         <Row id="headRow" className="text-center">
           <Col>
-            <h2 id="floHead">We love !pet! What is your pets name?</h2>
+            <h2 id="floHead">Where does !petname live?</h2>
           </Col>
         </Row>
         <Row id="breedInput">
           <Col>
             <FormGroup>
-              <Label id="inputTitle" for="petName">
-                Pet's Name
+              <Label id="inputTitle" for="zipcode">
+                Zip Code
               </Label>
               <Input
                 onChange={this.input}
                 bsSize="lg"
                 type="text"
-                name="petName"
-                id="petName"
-                placeholder="Captain Teddy"
+                name="zipcode"
+                id="zipcode"
+                placeholder="12345"
               />
             </FormGroup>
           </Col>
@@ -72,9 +84,9 @@ class PetName extends Component {
           <Row>
             <Col className="text-center">
               <Button
-                disabled={this.state.name ? false : true}
-                id="blueNext"
-                color="primary"
+                disabled={this.state.zip ? false : true}
+                id="redNext"
+                color="danger"
                 size="lg"
                 onClick={this.submit}
               >
@@ -88,4 +100,4 @@ class PetName extends Component {
   }
 }
 
-export default PetName;
+export default Zipcode;

@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import { Row, Col, Container } from "reactstrap";
-import './NibFoot.css';
+import "./NibFoot.css";
 
 class NibFoot extends Component {
   render() {
@@ -9,13 +9,15 @@ class NibFoot extends Component {
         <Container className="NibFoot" fluid>
           <Row>
             <Col className="text-center">
-              <p id="legal">Terms of Use <span>&bull;</span> Privacy Policy</p>
+              <p id="legal">
+                Terms of Use <span>&bull;</span> Privacy Policy
+              </p>
               <p id="copy">Made in America by Nibbl.es &copy; 2018</p>
             </Col>
           </Row>
-        </Container>  
+        </Container>
       </div>
-    )   
+    );
   }
 }
 
