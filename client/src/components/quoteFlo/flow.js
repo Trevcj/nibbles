@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import { Route, Switch } from "react-router-dom";
 import "./flow.css";
-import Type from "./type/type"
-import Breed from "./breed/breed"
-import PetName from "./petname/petname"
-import Zipcode from "./zipcode/zipcode"
-import Email from "./email/email"
+import Type from "./type/type";
+import Breed from "./breed/breed";
+import PetName from "./petname/petname";
+import Zipcode from "./zipcode/zipcode";
+import Email from "./email/email";
 
 class Flow extends Component {
   render() {
