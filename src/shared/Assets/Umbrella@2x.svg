@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150px" height="159px" viewBox="0 0 150 159" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Umbrella@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy" transform="translate(-260.000000, -1041.000000)" fill-rule="nonzero">
+            <g id="Umbrella" transform="translate(260.000000, 1044.000000)">
+                <path d="M75.5332031,0.03125 C75.5332031,61.0742188 75.5332031,102.029948 75.5332031,122.898438 C75.5332031,142.390349 75.0774041,153.125 64.2275391,153.125 C56.6904297,153.125 52.921875,147.375 52.921875,135.875" id="Path-2" stroke="#4D4D4D" stroke-width="5" stroke-linecap="round"></path>
+                <path d="M150,80 C150,38.5786438 116.421356,5 75,5 C33.5786438,5 0,38.5786438 0,80 C105.382789,80 66.993357,80 150,80 Z" id="Oval-3" fill="#FFB938"></path>
+            </g>
+        </g>
+    </g>
+</svg>
